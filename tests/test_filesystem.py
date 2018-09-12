@@ -9,8 +9,6 @@ class Test():
     def __init__(self):
         self = self
 
-    def __str__(self):
-        self.name = self
 
 
 foo = Test()
