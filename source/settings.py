@@ -19,16 +19,29 @@ CAMERA SETTINGS USING the pycamera module 1.13
 #Initialization Settings
 
 PiCamera = {
-    'sensor_mode' : 0,
-    'resolution' : None,
+    'sensor_mode' : 3,
+    'resolution' : (3280,2464),
     'framerate' : None,
     'framerate_range' : None,
 }
 
+'''# Exposure settings
+Exposure = {
+    'exposure_mode' : 'off',
+    'iso' : 100 ,
+    'shutter_speed' : 1000, 
+    'awb_mode' : 'off',
+    'awb_gain' : (2.0,2.0),
+'''
+
+
+}
+
+
 # Capture Settings
 
 capture = {
-    'format' : None,
+    'format' : 'yuv',
     'resize' : None,
     'bayer' : False,
 }
