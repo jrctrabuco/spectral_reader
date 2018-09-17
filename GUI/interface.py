@@ -68,7 +68,7 @@ class MainPage(tk.Frame):
                             command=lambda: controller.show_frame(InitializePage))
         button1.pack()
 
-        wavelenght_entry = tk.Spinbox(self , from_=400, to=800, )
+        wavelenght_entry = ttk.Scale(self , from_=400, to=800, )
         wavelenght_entry.pack()
 
 
